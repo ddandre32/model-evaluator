@@ -1,9 +1,9 @@
-# MiMo-V2-Pro 能力评测框架
+# Model Evaluator
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-针对 Xiaomi MiMo-V2-Pro 大模型的多维度能力评测框架，支持复杂推理、编程、Agent、长上下文、指令遵循五个维度的客观评测。
+针对大语言模型的多维度能力评测框架，支持复杂推理、编程、Agent、长上下文、指令遵循五个维度的客观评测。
 
 ## 📋 目录
 
@@ -183,7 +183,7 @@ Write a short story with constraints:
 ```bash
 # 1. 克隆项目
 git clone <repository-url>
-cd mimo-evaluator
+cd model-evaluator
 
 # 2. 创建虚拟环境
 python -m venv venv
@@ -344,7 +344,7 @@ python run_eval.py --no-report
 ## 📁 项目结构
 
 ```
-mimo-evaluator/
+model-evaluator/
 ├── config/
 │   └── eval_config.yaml          # 评测配置
 ├── core/
