@@ -1,0 +1,1202 @@
+[
+  {
+    "problem": "Find the sum of all positive integers n such that n^2 - 3n + 2 is a perfect square.",
+    "solution": "3",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "What is the remainder when 2^100 is divided by 7?",
+    "solution": "2",
+    "level": "Level 2",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "How many three-digit numbers have digits that sum to 10?",
+    "solution": "54",
+    "level": "Level 3",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "In a right triangle with legs of length 3 and 4, what is the length of the altitude to the hypotenuse?",
+    "solution": "2.4",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "What is the smallest prime factor of 2024?",
+    "solution": "2",
+    "level": "Level 1",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "Solve for x: 2^(x+1) = 16^(x-1)",
+    "solution": "3",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "How many diagonals does a convex octagon have?",
+    "solution": "20",
+    "level": "Level 2",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "What is the coefficient of x^3 in the expansion of (1+x)^6?",
+    "solution": "20",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "A circle has radius 5. What is the area of a sector with central angle 72 degrees?",
+    "solution": "5\u03c0",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "Find the sum of the first 20 positive even integers.",
+    "solution": "420",
+    "level": "Level 1",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the units digit of 7^2024?",
+    "solution": "1",
+    "level": "Level 2",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "If sin(\u03b8) = 3/5 and \u03b8 is in the first quadrant, what is cos(2\u03b8)?",
+    "solution": "7/25",
+    "level": "Level 3",
+    "type": "Trigonometry"
+  },
+  {
+    "problem": "How many ways can 8 people be arranged around a circular table?",
+    "solution": "5040",
+    "level": "Level 2",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "What is the greatest common divisor of 252 and 180?",
+    "solution": "36",
+    "level": "Level 1",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "Find the area of the triangle with vertices at (0,0), (4,0), and (2,6).",
+    "solution": "12",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "What is the probability of rolling a sum of 7 with two fair dice?",
+    "solution": "1/6",
+    "level": "Level 1",
+    "type": "Probability"
+  },
+  {
+    "problem": "Solve the system: x + y = 10, xy = 21. Find x^2 + y^2.",
+    "solution": "58",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the sum of the interior angles of a regular hexagon?",
+    "solution": "720",
+    "level": "Level 1",
+    "type": "Geometry"
+  },
+  {
+    "problem": "How many factors does 72 have?",
+    "solution": "12",
+    "level": "Level 2",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "Find the equation of the line passing through (2,3) and (4,7).",
+    "solution": "y = 2x - 1",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the volume of a sphere with radius 3?",
+    "solution": "36\u03c0",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "In how many ways can 5 people stand in a line if two particular people must not stand next to each other?",
+    "solution": "72",
+    "level": "Level 3",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "What is the 10th term of the arithmetic sequence: 3, 7, 11, 15, ...?",
+    "solution": "39",
+    "level": "Level 1",
+    "type": "Algebra"
+  },
+  {
+    "problem": "If log\u2082(x) = 5, what is log\u2084(x)?",
+    "solution": "2.5",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the distance between the points (1,2) and (4,6)?",
+    "solution": "5",
+    "level": "Level 1",
+    "type": "Geometry"
+  },
+  {
+    "problem": "How many integers between 1 and 100 are divisible by 3 or 5?",
+    "solution": "47",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "Find the derivative of f(x) = x\u00b3 - 3x\u00b2 + 2x at x = 2.",
+    "solution": "2",
+    "level": "Level 2",
+    "type": "Calculus"
+  },
+  {
+    "problem": "What is the sum of the geometric series: 1 + 1/2 + 1/4 + 1/8 + ...?",
+    "solution": "2",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "A regular polygon has exterior angles of 40\u00b0. How many sides does it have?",
+    "solution": "9",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "What is the remainder when 3^50 is divided by 8?",
+    "solution": "1",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "If tan(\u03b8) = 2, what is sin(2\u03b8)?",
+    "solution": "4/5",
+    "level": "Level 3",
+    "type": "Trigonometry"
+  },
+  {
+    "problem": "How many 4-digit numbers have all distinct digits?",
+    "solution": "4536",
+    "level": "Level 3",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "Find the integral of \u222b(2x + 3)dx from 0 to 2.",
+    "solution": "10",
+    "level": "Level 2",
+    "type": "Calculus"
+  },
+  {
+    "problem": "What is the minimum value of x\u00b2 - 6x + 13?",
+    "solution": "4",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "In a group of 30 people, 18 play tennis and 20 play golf. How many play both if everyone plays at least one?",
+    "solution": "8",
+    "level": "Level 2",
+    "type": "Set Theory"
+  },
+  {
+    "problem": "What is the area of a triangle with sides 13, 14, 15?",
+    "solution": "84",
+    "level": "Level 3",
+    "type": "Geometry"
+  },
+  {
+    "problem": "How many ways to choose 3 people from 10?",
+    "solution": "120",
+    "level": "Level 2",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "What is the complex conjugate of 3 + 4i?",
+    "solution": "3 - 4i",
+    "level": "Level 1",
+    "type": "Complex Numbers"
+  },
+  {
+    "problem": "If f(x) = 2x - 1, what is f\u207b\u00b9(3)?",
+    "solution": "2",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the eccentricity of the ellipse x\u00b2/25 + y\u00b2/9 = 1?",
+    "solution": "4/5",
+    "level": "Level 3",
+    "type": "Geometry"
+  },
+  {
+    "problem": "How many positive divisors does 60 have?",
+    "solution": "12",
+    "level": "Level 2",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "Find the sum of the first 10 terms of the sequence: 2, 6, 18, 54, ...",
+    "solution": "59048",
+    "level": "Level 3",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the probability of drawing 2 aces from a standard deck?",
+    "solution": "1/221",
+    "level": "Level 2",
+    "type": "Probability"
+  },
+  {
+    "problem": "Solve for x: \u221a(x+5) = x - 1",
+    "solution": "4",
+    "level": "Level 3",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the surface area of a cube with side length 4?",
+    "solution": "96",
+    "level": "Level 1",
+    "type": "Geometry"
+  },
+  {
+    "problem": "If A and B are independent events with P(A) = 0.3 and P(B) = 0.4, what is P(A \u2229 B)?",
+    "solution": "0.12",
+    "level": "Level 2",
+    "type": "Probability"
+  },
+  {
+    "problem": "Find the inverse of the matrix [[2, 1], [5, 3]].",
+    "solution": "[[3, -1], [-5, 2]]",
+    "level": "Level 3",
+    "type": "Linear Algebra"
+  },
+  {
+    "problem": "What is the sum of all two-digit primes?",
+    "solution": "1060",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "A cone has radius 3 and height 4. What is its volume?",
+    "solution": "12\u03c0",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "How many subsets does a set with 6 elements have?",
+    "solution": "64",
+    "level": "Level 2",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "Find the limit: lim(x\u21920) (sin x)/x",
+    "solution": "1",
+    "level": "Level 3",
+    "type": "Calculus"
+  },
+  {
+    "problem": "What is the coefficient of x\u00b2y\u00b3 in (x+y)^5?",
+    "solution": "10",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "If z = 1 + i, what is |z|?",
+    "solution": "\u221a2",
+    "level": "Level 2",
+    "type": "Complex Numbers"
+  },
+  {
+    "problem": "What is the sum of the roots of x\u00b3 - 6x\u00b2 + 11x - 6 = 0?",
+    "solution": "6",
+    "level": "Level 3",
+    "type": "Algebra"
+  },
+  {
+    "problem": "How many edges does a complete graph with 5 vertices have?",
+    "solution": "10",
+    "level": "Level 2",
+    "type": "Graph Theory"
+  },
+  {
+    "problem": "Find the area between y = x\u00b2 and y = x.",
+    "solution": "1/6",
+    "level": "Level 3",
+    "type": "Calculus"
+  },
+  {
+    "problem": "What is the period of sin(2x)?",
+    "solution": "\u03c0",
+    "level": "Level 2",
+    "type": "Trigonometry"
+  },
+  {
+    "problem": "In a leap year, what is the probability that a random day is in February?",
+    "solution": "29/366",
+    "level": "Level 2",
+    "type": "Probability"
+  },
+  {
+    "problem": "What is the rank of the matrix [[1, 2], [2, 4]]?",
+    "solution": "1",
+    "level": "Level 3",
+    "type": "Linear Algebra"
+  },
+  {
+    "problem": "How many integers satisfy |x - 3| < 5?",
+    "solution": "9",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the sum of the first 100 positive integers?",
+    "solution": "5050",
+    "level": "Level 1",
+    "type": "Algebra"
+  },
+  {
+    "problem": "Find the vertex of the parabola y = 2x\u00b2 - 8x + 5.",
+    "solution": "(2, -3)",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "What is the Euler totient function \u03c6(12)?",
+    "solution": "4",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "How many ways to arrange the letters in 'STATISTICS'?",
+    "solution": "50400",
+    "level": "Level 3",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "What is the equation of the circle with center (2, -3) and radius 5?",
+    "solution": "(x-2)\u00b2 + (y+3)\u00b2 = 25",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "If sin(A) = 1/2 and A is acute, what is cos(A)?",
+    "solution": "\u221a3/2",
+    "level": "Level 2",
+    "type": "Trigonometry"
+  },
+  {
+    "problem": "What is the expected value when rolling a fair die?",
+    "solution": "3.5",
+    "level": "Level 2",
+    "type": "Probability"
+  },
+  {
+    "problem": "Solve: 2^x = 3^(x-1)",
+    "solution": "log\u20823/(log\u20823 - 1)",
+    "level": "Level 3",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the angle between the vectors [1, 0] and [1, 1]?",
+    "solution": "45\u00b0",
+    "level": "Level 2",
+    "type": "Linear Algebra"
+  },
+  {
+    "problem": "How many prime numbers are less than 50?",
+    "solution": "15",
+    "level": "Level 2",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "Find the length of the parametric curve x = t\u00b2, y = t\u00b3 for t \u2208 [0, 2].",
+    "solution": "(13\u221a13 - 8)/27",
+    "level": "Level 4",
+    "type": "Calculus"
+  },
+  {
+    "problem": "What is the least common multiple of 12 and 18?",
+    "solution": "36",
+    "level": "Level 1",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "In a triangle with sides a=5, b=7, c=8, find cos(C).",
+    "solution": "1/7",
+    "level": "Level 3",
+    "type": "Trigonometry"
+  },
+  {
+    "problem": "What is the Taylor series expansion of e^x around 0 up to x\u00b3?",
+    "solution": "1 + x + x\u00b2/2 + x\u00b3/6",
+    "level": "Level 3",
+    "type": "Calculus"
+  },
+  {
+    "problem": "How many ways to distribute 10 identical balls into 4 distinct boxes?",
+    "solution": "286",
+    "level": "Level 3",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "What is the determinant of [[3, 1], [2, 4]]?",
+    "solution": "10",
+    "level": "Level 2",
+    "type": "Linear Algebra"
+  },
+  {
+    "problem": "If f(x) = ln(x), what is f'(e)?",
+    "solution": "1/e",
+    "level": "Level 2",
+    "type": "Calculus"
+  },
+  {
+    "problem": "What is the sum of the series: \u03a3(1/2)^n for n=1 to \u221e?",
+    "solution": "1",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "Find the number of triangles with integer sides and perimeter 12.",
+    "solution": "3",
+    "level": "Level 3",
+    "type": "Geometry"
+  },
+  {
+    "problem": "What is the standard deviation of {2, 4, 6, 8, 10}?",
+    "solution": "2\u221a2",
+    "level": "Level 3",
+    "type": "Statistics"
+  },
+  {
+    "problem": "If det(A) = 5, what is det(2A) for a 3\u00d73 matrix A?",
+    "solution": "40",
+    "level": "Level 3",
+    "type": "Linear Algebra"
+  },
+  {
+    "problem": "What is the probability of exactly 2 heads in 4 coin flips?",
+    "solution": "3/8",
+    "level": "Level 2",
+    "type": "Probability"
+  },
+  {
+    "problem": "Find the value of \u222b\u2080^\u03c0 sin(x)dx.",
+    "solution": "2",
+    "level": "Level 2",
+    "type": "Calculus"
+  },
+  {
+    "problem": "What is the 100th digit after the decimal in 1/7?",
+    "solution": "8",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "How many homomorphisms from Z\u2086 to Z\u2084?",
+    "solution": "2",
+    "level": "Level 4",
+    "type": "Abstract Algebra"
+  },
+  {
+    "problem": "What is the radius of convergence of \u03a3(x^n)/n!?",
+    "solution": "\u221e",
+    "level": "Level 3",
+    "type": "Analysis"
+  },
+  {
+    "problem": "Find the number of solutions to x\u00b2 \u2261 1 (mod 15).",
+    "solution": "4",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "What is the chromatic number of the complete graph K\u2085?",
+    "solution": "5",
+    "level": "Level 3",
+    "type": "Graph Theory"
+  },
+  {
+    "problem": "Evaluate: lim(n\u2192\u221e) (1 + 1/n)^n",
+    "solution": "e",
+    "level": "Level 3",
+    "type": "Calculus"
+  },
+  {
+    "problem": "How many Sylow 2-subgroups does S\u2084 have?",
+    "solution": "3",
+    "level": "Level 5",
+    "type": "Abstract Algebra"
+  },
+  {
+    "problem": "What is the residue of f(z) = 1/(z\u00b2+1) at z = i?",
+    "solution": "-i/2",
+    "level": "Level 4",
+    "type": "Complex Analysis"
+  },
+  {
+    "problem": "Find the number of regions formed by 6 lines in general position.",
+    "solution": "22",
+    "level": "Level 3",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "What is the class equation for D\u2088?",
+    "solution": "1 + 1 + 2 + 2 + 2",
+    "level": "Level 5",
+    "type": "Abstract Algebra"
+  },
+  {
+    "problem": "Evaluate the contour integral \u222e(z\u00b2)dz where |z| = 1.",
+    "solution": "0",
+    "level": "Level 4",
+    "type": "Complex Analysis"
+  },
+  {
+    "problem": "What is the fundamental group of the torus S\u00b9 \u00d7 S\u00b9?",
+    "solution": "Z \u00d7 Z",
+    "level": "Level 5",
+    "type": "Topology"
+  },
+  {
+    "problem": "Find the Galois group of x\u2074 - 2 over Q.",
+    "solution": "D\u2084",
+    "level": "Level 5",
+    "type": "Galois Theory"
+  },
+  {
+    "problem": "What is the Hausdorff dimension of the Cantor set?",
+    "solution": "ln(2)/ln(3)",
+    "level": "Level 5",
+    "type": "Fractal Geometry"
+  },
+  {
+    "problem": "How many elements of order 2 are in GL\u2082(F\u2083)?",
+    "solution": "13",
+    "level": "Level 5",
+    "type": "Abstract Algebra"
+  },
+  {
+    "problem": "Find the sum of all positive integers n such that n^2 - 3n + 2 is a perfect square. (Variant 98)",
+    "solution": "3",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "What is the remainder when 2^100 is divided by 7? (Variant 99)",
+    "solution": "2",
+    "level": "Level 2",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "How many three-digit numbers have digits that sum to 10? (Variant 100)",
+    "solution": "54",
+    "level": "Level 3",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "In a right triangle with legs of length 3 and 4, what is the length of the altitude to the hypotenuse? (Variant 101)",
+    "solution": "2.4",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "What is the smallest prime factor of 2024? (Variant 102)",
+    "solution": "2",
+    "level": "Level 1",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "Solve for x: 2^(x+1) = 16^(x-1) (Variant 103)",
+    "solution": "3",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "How many diagonals does a convex octagon have? (Variant 104)",
+    "solution": "20",
+    "level": "Level 2",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "What is the coefficient of x^3 in the expansion of (1+x)^6? (Variant 105)",
+    "solution": "20",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "A circle has radius 5. What is the area of a sector with central angle 72 degrees? (Variant 106)",
+    "solution": "5\u03c0",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "Find the sum of the first 20 positive even integers. (Variant 107)",
+    "solution": "420",
+    "level": "Level 1",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the units digit of 7^2024? (Variant 108)",
+    "solution": "1",
+    "level": "Level 2",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "If sin(\u03b8) = 3/5 and \u03b8 is in the first quadrant, what is cos(2\u03b8)? (Variant 109)",
+    "solution": "7/25",
+    "level": "Level 3",
+    "type": "Trigonometry"
+  },
+  {
+    "problem": "How many ways can 8 people be arranged around a circular table? (Variant 110)",
+    "solution": "5040",
+    "level": "Level 2",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "What is the greatest common divisor of 252 and 180? (Variant 111)",
+    "solution": "36",
+    "level": "Level 1",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "Find the area of the triangle with vertices at (0,0), (4,0), and (2,6). (Variant 112)",
+    "solution": "12",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "What is the probability of rolling a sum of 7 with two fair dice? (Variant 113)",
+    "solution": "1/6",
+    "level": "Level 1",
+    "type": "Probability"
+  },
+  {
+    "problem": "Solve the system: x + y = 10, xy = 21. Find x^2 + y^2. (Variant 114)",
+    "solution": "58",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the sum of the interior angles of a regular hexagon? (Variant 115)",
+    "solution": "720",
+    "level": "Level 1",
+    "type": "Geometry"
+  },
+  {
+    "problem": "How many factors does 72 have? (Variant 116)",
+    "solution": "12",
+    "level": "Level 2",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "Find the equation of the line passing through (2,3) and (4,7). (Variant 117)",
+    "solution": "y = 2x - 1",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the volume of a sphere with radius 3? (Variant 118)",
+    "solution": "36\u03c0",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "In how many ways can 5 people stand in a line if two particular people must not stand next to each other? (Variant 119)",
+    "solution": "72",
+    "level": "Level 3",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "What is the 10th term of the arithmetic sequence: 3, 7, 11, 15, ...? (Variant 120)",
+    "solution": "39",
+    "level": "Level 1",
+    "type": "Algebra"
+  },
+  {
+    "problem": "If log\u2082(x) = 5, what is log\u2084(x)? (Variant 121)",
+    "solution": "2.5",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the distance between the points (1,2) and (4,6)? (Variant 122)",
+    "solution": "5",
+    "level": "Level 1",
+    "type": "Geometry"
+  },
+  {
+    "problem": "How many integers between 1 and 100 are divisible by 3 or 5? (Variant 123)",
+    "solution": "47",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "Find the derivative of f(x) = x\u00b3 - 3x\u00b2 + 2x at x = 2. (Variant 124)",
+    "solution": "2",
+    "level": "Level 2",
+    "type": "Calculus"
+  },
+  {
+    "problem": "What is the sum of the geometric series: 1 + 1/2 + 1/4 + 1/8 + ...? (Variant 125)",
+    "solution": "2",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "A regular polygon has exterior angles of 40\u00b0. How many sides does it have? (Variant 126)",
+    "solution": "9",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "What is the remainder when 3^50 is divided by 8? (Variant 127)",
+    "solution": "1",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "If tan(\u03b8) = 2, what is sin(2\u03b8)? (Variant 128)",
+    "solution": "4/5",
+    "level": "Level 3",
+    "type": "Trigonometry"
+  },
+  {
+    "problem": "How many 4-digit numbers have all distinct digits? (Variant 129)",
+    "solution": "4536",
+    "level": "Level 3",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "Find the integral of \u222b(2x + 3)dx from 0 to 2. (Variant 130)",
+    "solution": "10",
+    "level": "Level 2",
+    "type": "Calculus"
+  },
+  {
+    "problem": "What is the minimum value of x\u00b2 - 6x + 13? (Variant 131)",
+    "solution": "4",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "In a group of 30 people, 18 play tennis and 20 play golf. How many play both if everyone plays at least one? (Variant 132)",
+    "solution": "8",
+    "level": "Level 2",
+    "type": "Set Theory"
+  },
+  {
+    "problem": "What is the area of a triangle with sides 13, 14, 15? (Variant 133)",
+    "solution": "84",
+    "level": "Level 3",
+    "type": "Geometry"
+  },
+  {
+    "problem": "How many ways to choose 3 people from 10? (Variant 134)",
+    "solution": "120",
+    "level": "Level 2",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "What is the complex conjugate of 3 + 4i? (Variant 135)",
+    "solution": "3 - 4i",
+    "level": "Level 1",
+    "type": "Complex Numbers"
+  },
+  {
+    "problem": "If f(x) = 2x - 1, what is f\u207b\u00b9(3)? (Variant 136)",
+    "solution": "2",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the eccentricity of the ellipse x\u00b2/25 + y\u00b2/9 = 1? (Variant 137)",
+    "solution": "4/5",
+    "level": "Level 3",
+    "type": "Geometry"
+  },
+  {
+    "problem": "How many positive divisors does 60 have? (Variant 138)",
+    "solution": "12",
+    "level": "Level 2",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "Find the sum of the first 10 terms of the sequence: 2, 6, 18, 54, ... (Variant 139)",
+    "solution": "59048",
+    "level": "Level 3",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the probability of drawing 2 aces from a standard deck? (Variant 140)",
+    "solution": "1/221",
+    "level": "Level 2",
+    "type": "Probability"
+  },
+  {
+    "problem": "Solve for x: \u221a(x+5) = x - 1 (Variant 141)",
+    "solution": "4",
+    "level": "Level 3",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the surface area of a cube with side length 4? (Variant 142)",
+    "solution": "96",
+    "level": "Level 1",
+    "type": "Geometry"
+  },
+  {
+    "problem": "If A and B are independent events with P(A) = 0.3 and P(B) = 0.4, what is P(A \u2229 B)? (Variant 143)",
+    "solution": "0.12",
+    "level": "Level 2",
+    "type": "Probability"
+  },
+  {
+    "problem": "Find the inverse of the matrix [[2, 1], [5, 3]]. (Variant 144)",
+    "solution": "[[3, -1], [-5, 2]]",
+    "level": "Level 3",
+    "type": "Linear Algebra"
+  },
+  {
+    "problem": "What is the sum of all two-digit primes? (Variant 145)",
+    "solution": "1060",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "A cone has radius 3 and height 4. What is its volume? (Variant 146)",
+    "solution": "12\u03c0",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "How many subsets does a set with 6 elements have? (Variant 147)",
+    "solution": "64",
+    "level": "Level 2",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "Find the limit: lim(x\u21920) (sin x)/x (Variant 148)",
+    "solution": "1",
+    "level": "Level 3",
+    "type": "Calculus"
+  },
+  {
+    "problem": "What is the coefficient of x\u00b2y\u00b3 in (x+y)^5? (Variant 149)",
+    "solution": "10",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "If z = 1 + i, what is |z|? (Variant 150)",
+    "solution": "\u221a2",
+    "level": "Level 2",
+    "type": "Complex Numbers"
+  },
+  {
+    "problem": "What is the sum of the roots of x\u00b3 - 6x\u00b2 + 11x - 6 = 0? (Variant 151)",
+    "solution": "6",
+    "level": "Level 3",
+    "type": "Algebra"
+  },
+  {
+    "problem": "How many edges does a complete graph with 5 vertices have? (Variant 152)",
+    "solution": "10",
+    "level": "Level 2",
+    "type": "Graph Theory"
+  },
+  {
+    "problem": "Find the area between y = x\u00b2 and y = x. (Variant 153)",
+    "solution": "1/6",
+    "level": "Level 3",
+    "type": "Calculus"
+  },
+  {
+    "problem": "What is the period of sin(2x)? (Variant 154)",
+    "solution": "\u03c0",
+    "level": "Level 2",
+    "type": "Trigonometry"
+  },
+  {
+    "problem": "In a leap year, what is the probability that a random day is in February? (Variant 155)",
+    "solution": "29/366",
+    "level": "Level 2",
+    "type": "Probability"
+  },
+  {
+    "problem": "What is the rank of the matrix [[1, 2], [2, 4]]? (Variant 156)",
+    "solution": "1",
+    "level": "Level 3",
+    "type": "Linear Algebra"
+  },
+  {
+    "problem": "How many integers satisfy |x - 3| < 5? (Variant 157)",
+    "solution": "9",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the sum of the first 100 positive integers? (Variant 158)",
+    "solution": "5050",
+    "level": "Level 1",
+    "type": "Algebra"
+  },
+  {
+    "problem": "Find the vertex of the parabola y = 2x\u00b2 - 8x + 5. (Variant 159)",
+    "solution": "(2, -3)",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "What is the Euler totient function \u03c6(12)? (Variant 160)",
+    "solution": "4",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "How many ways to arrange the letters in 'STATISTICS'? (Variant 161)",
+    "solution": "50400",
+    "level": "Level 3",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "What is the equation of the circle with center (2, -3) and radius 5? (Variant 162)",
+    "solution": "(x-2)\u00b2 + (y+3)\u00b2 = 25",
+    "level": "Level 2",
+    "type": "Geometry"
+  },
+  {
+    "problem": "If sin(A) = 1/2 and A is acute, what is cos(A)? (Variant 163)",
+    "solution": "\u221a3/2",
+    "level": "Level 2",
+    "type": "Trigonometry"
+  },
+  {
+    "problem": "What is the expected value when rolling a fair die? (Variant 164)",
+    "solution": "3.5",
+    "level": "Level 2",
+    "type": "Probability"
+  },
+  {
+    "problem": "Solve: 2^x = 3^(x-1) (Variant 165)",
+    "solution": "log\u20823/(log\u20823 - 1)",
+    "level": "Level 3",
+    "type": "Algebra"
+  },
+  {
+    "problem": "What is the angle between the vectors [1, 0] and [1, 1]? (Variant 166)",
+    "solution": "45\u00b0",
+    "level": "Level 2",
+    "type": "Linear Algebra"
+  },
+  {
+    "problem": "How many prime numbers are less than 50? (Variant 167)",
+    "solution": "15",
+    "level": "Level 2",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "Find the length of the parametric curve x = t\u00b2, y = t\u00b3 for t \u2208 [0, 2]. (Variant 168)",
+    "solution": "(13\u221a13 - 8)/27",
+    "level": "Level 4",
+    "type": "Calculus"
+  },
+  {
+    "problem": "What is the least common multiple of 12 and 18? (Variant 169)",
+    "solution": "36",
+    "level": "Level 1",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "In a triangle with sides a=5, b=7, c=8, find cos(C). (Variant 170)",
+    "solution": "1/7",
+    "level": "Level 3",
+    "type": "Trigonometry"
+  },
+  {
+    "problem": "What is the Taylor series expansion of e^x around 0 up to x\u00b3? (Variant 171)",
+    "solution": "1 + x + x\u00b2/2 + x\u00b3/6",
+    "level": "Level 3",
+    "type": "Calculus"
+  },
+  {
+    "problem": "How many ways to distribute 10 identical balls into 4 distinct boxes? (Variant 172)",
+    "solution": "286",
+    "level": "Level 3",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "What is the determinant of [[3, 1], [2, 4]]? (Variant 173)",
+    "solution": "10",
+    "level": "Level 2",
+    "type": "Linear Algebra"
+  },
+  {
+    "problem": "If f(x) = ln(x), what is f'(e)? (Variant 174)",
+    "solution": "1/e",
+    "level": "Level 2",
+    "type": "Calculus"
+  },
+  {
+    "problem": "What is the sum of the series: \u03a3(1/2)^n for n=1 to \u221e? (Variant 175)",
+    "solution": "1",
+    "level": "Level 2",
+    "type": "Algebra"
+  },
+  {
+    "problem": "Find the number of triangles with integer sides and perimeter 12. (Variant 176)",
+    "solution": "3",
+    "level": "Level 3",
+    "type": "Geometry"
+  },
+  {
+    "problem": "What is the standard deviation of {2, 4, 6, 8, 10}? (Variant 177)",
+    "solution": "2\u221a2",
+    "level": "Level 3",
+    "type": "Statistics"
+  },
+  {
+    "problem": "If det(A) = 5, what is det(2A) for a 3\u00d73 matrix A? (Variant 178)",
+    "solution": "40",
+    "level": "Level 3",
+    "type": "Linear Algebra"
+  },
+  {
+    "problem": "What is the probability of exactly 2 heads in 4 coin flips? (Variant 179)",
+    "solution": "3/8",
+    "level": "Level 2",
+    "type": "Probability"
+  },
+  {
+    "problem": "Find the value of \u222b\u2080^\u03c0 sin(x)dx. (Variant 180)",
+    "solution": "2",
+    "level": "Level 2",
+    "type": "Calculus"
+  },
+  {
+    "problem": "What is the 100th digit after the decimal in 1/7? (Variant 181)",
+    "solution": "8",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "How many homomorphisms from Z\u2086 to Z\u2084? (Variant 182)",
+    "solution": "2",
+    "level": "Level 4",
+    "type": "Abstract Algebra"
+  },
+  {
+    "problem": "What is the radius of convergence of \u03a3(x^n)/n!? (Variant 183)",
+    "solution": "\u221e",
+    "level": "Level 3",
+    "type": "Analysis"
+  },
+  {
+    "problem": "Find the number of solutions to x\u00b2 \u2261 1 (mod 15). (Variant 184)",
+    "solution": "4",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "What is the chromatic number of the complete graph K\u2085? (Variant 185)",
+    "solution": "5",
+    "level": "Level 3",
+    "type": "Graph Theory"
+  },
+  {
+    "problem": "Evaluate: lim(n\u2192\u221e) (1 + 1/n)^n (Variant 186)",
+    "solution": "e",
+    "level": "Level 3",
+    "type": "Calculus"
+  },
+  {
+    "problem": "How many Sylow 2-subgroups does S\u2084 have? (Variant 187)",
+    "solution": "3",
+    "level": "Level 5",
+    "type": "Abstract Algebra"
+  },
+  {
+    "problem": "What is the residue of f(z) = 1/(z\u00b2+1) at z = i? (Variant 188)",
+    "solution": "-i/2",
+    "level": "Level 4",
+    "type": "Complex Analysis"
+  },
+  {
+    "problem": "Find the number of regions formed by 6 lines in general position. (Variant 189)",
+    "solution": "22",
+    "level": "Level 3",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "What is the class equation for D\u2088? (Variant 190)",
+    "solution": "1 + 1 + 2 + 2 + 2",
+    "level": "Level 5",
+    "type": "Abstract Algebra"
+  },
+  {
+    "problem": "Evaluate the contour integral \u222e(z\u00b2)dz where |z| = 1. (Variant 191)",
+    "solution": "0",
+    "level": "Level 4",
+    "type": "Complex Analysis"
+  },
+  {
+    "problem": "What is the fundamental group of the torus S\u00b9 \u00d7 S\u00b9? (Variant 192)",
+    "solution": "Z \u00d7 Z",
+    "level": "Level 5",
+    "type": "Topology"
+  },
+  {
+    "problem": "Find the Galois group of x\u2074 - 2 over Q. (Variant 193)",
+    "solution": "D\u2084",
+    "level": "Level 5",
+    "type": "Galois Theory"
+  },
+  {
+    "problem": "What is the Hausdorff dimension of the Cantor set? (Variant 194)",
+    "solution": "ln(2)/ln(3)",
+    "level": "Level 5",
+    "type": "Fractal Geometry"
+  },
+  {
+    "problem": "How many elements of order 2 are in GL\u2082(F\u2083)? (Variant 195)",
+    "solution": "13",
+    "level": "Level 5",
+    "type": "Abstract Algebra"
+  },
+  {
+    "problem": "Find the sum of all positive integers n such that n^2 - 3n + 2 is a perfect square. (Variant 196)",
+    "solution": "3",
+    "level": "Level 3",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "What is the remainder when 2^100 is divided by 7? (Variant 197)",
+    "solution": "2",
+    "level": "Level 2",
+    "type": "Number Theory"
+  },
+  {
+    "problem": "How many three-digit numbers have digits that sum to 10? (Variant 198)",
+    "solution": "54",
+    "level": "Level 3",
+    "type": "Combinatorics"
+  },
+  {
+    "problem": "In a right triangle with legs of length 3 and 4, what is the length of the altitude to the hypotenuse? (Variant 199)",
+    "solution": "2.4",
+    "level": "Level 2",
+    "type": "Geometry"
+  }
+]
