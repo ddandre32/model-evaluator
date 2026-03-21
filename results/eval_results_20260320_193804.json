@@ -1,0 +1,180 @@
+{
+  "timestamp": "20260320_193804",
+  "config": {
+    "evaluation": {
+      "name": "MiMo-V2-Pro-Capability-Evaluation",
+      "version": "1.0.0",
+      "description": "针对 Xiaomi MiMo-V2-Pro 各维度能力的客观评测"
+    },
+    "dimensions": {
+      "reasoning": {
+        "name": "复杂推理能力",
+        "description": "数学推理、逻辑推理、科学问题求解",
+        "weight": 0.25,
+        "benchmarks": [
+          "gsm8k",
+          "math",
+          "gpqa",
+          "mmlu_pro"
+        ]
+      },
+      "coding": {
+        "name": "编程能力",
+        "description": "代码生成、代码理解、Vibe Coding",
+        "weight": 0.25,
+        "benchmarks": [
+          "humaneval",
+          "mbpp",
+          "livecodebench",
+          "swe_bench"
+        ]
+      },
+      "agent": {
+        "name": "Agent 能力",
+        "description": "工具使用、多步骤规划、任务完成",
+        "weight": 0.3,
+        "benchmarks": [
+          "openclaw",
+          "webarena",
+          "tool_use",
+          "multi_step"
+        ]
+      },
+      "long_context": {
+        "name": "长上下文理解",
+        "description": "25M 上下文窗口的有效利用",
+        "weight": 0.1,
+        "benchmarks": [
+          "needle_in_haystack",
+          "long_qa",
+          "code_repo_understanding"
+        ]
+      },
+      "instruction_following": {
+        "name": "指令遵循",
+        "description": "准确理解并执行复杂指令",
+        "weight": 0.1,
+        "benchmarks": [
+          "ifeval",
+          "complex_prompts"
+        ]
+      }
+    },
+    "models": {
+      "mimo_v2_pro": {
+        "name": "Xiaomi MiMo-V2-Pro",
+        "api_base": "https://api.xiaomimimo.com/v1",
+        "model_id": "mimo-v2-pro",
+        "max_tokens": 8192,
+        "temperature": 0.0,
+        "top_p": 0.95,
+        "supports_tools": true,
+        "context_length": 25000000,
+        "env_key": "MIMO_API_KEY"
+      },
+      "qwen35_plus": {
+        "name": "阿里云 Qwen3.5-Plus",
+        "api_base": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "model_id": "qwen-plus",
+        "max_tokens": 8192,
+        "temperature": 0.0,
+        "supports_tools": true,
+        "context_length": 32000,
+        "env_key": "DASHSCOPE_API_KEY"
+      }
+    },
+    "settings": {
+      "parallel_requests": 5,
+      "retry_attempts": 3,
+      "timeout_seconds": 120,
+      "output_dir": "./results",
+      "save_intermediate": true
+    }
+  },
+  "detailed_results": {
+    "mimo_v2_pro": {
+      "reasoning": {
+        "dimension": "reasoning",
+        "weight": 0.25,
+        "raw_score": 0.0,
+        "weighted_score": 0.0,
+        "benchmark_results": [
+          {
+            "benchmark": "gsm8k",
+            "dimension": "reasoning",
+            "model": "mimo_v2_pro",
+            "score": 0.0,
+            "total_samples": 2,
+            "correct_samples": 0,
+            "details": [
+              {
+                "question": "Janet has 24 ducks. She buys 15 more ducks. How many ducks does she have now?",
+                "error": "API call failed: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model mimo_v2_pro'}}",
+                "correct": false
+              },
+              {
+                "question": "A bakery has 8 trays of cupcakes. Each tray has 12 cupcakes. How many cupcakes are there in total?",
+                "error": "API call failed: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model mimo_v2_pro'}}",
+                "correct": false
+              }
+            ],
+            "latency_avg": 0,
+            "timestamp": "2026-03-20T19:38:00.502692"
+          }
+        ]
+      }
+    },
+    "qwen35_plus": {
+      "reasoning": {
+        "dimension": "reasoning",
+        "weight": 0.25,
+        "raw_score": 0.0,
+        "weighted_score": 0.0,
+        "benchmark_results": [
+          {
+            "benchmark": "gsm8k",
+            "dimension": "reasoning",
+            "model": "qwen35_plus",
+            "score": 0.0,
+            "total_samples": 2,
+            "correct_samples": 0,
+            "details": [
+              {
+                "question": "Janet has 24 ducks. She buys 15 more ducks. How many ducks does she have now?",
+                "error": "API call failed: Error code: 404 - {'error': {'message': 'The model `qwen35_plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}, 'request_id': '61ec74bb-a539-9a81-8301-9ec463c6341a'}",
+                "correct": false
+              },
+              {
+                "question": "A bakery has 8 trays of cupcakes. Each tray has 12 cupcakes. How many cupcakes are there in total?",
+                "error": "API call failed: Error code: 404 - {'error': {'message': 'The model `qwen35_plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}, 'request_id': 'd8b5937c-c310-9014-a724-9eb22465bca2'}",
+                "correct": false
+              }
+            ],
+            "latency_avg": 0,
+            "timestamp": "2026-03-20T19:38:04.637210"
+          }
+        ]
+      }
+    }
+  },
+  "final_scores": {
+    "mimo_v2_pro": {
+      "overall_score": 0.0,
+      "dimension_breakdown": {
+        "reasoning": {
+          "raw_score": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    "qwen35_plus": {
+      "overall_score": 0.0,
+      "dimension_breakdown": {
+        "reasoning": {
+          "raw_score": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    }
+  }
+}

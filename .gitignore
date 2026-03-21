@@ -40,11 +40,11 @@ env/
 *.swo
 *~
 
-# 评测结果（可能包含敏感数据）
-results/*.json
+# 评测结果（可能包含敏感数据）- 但保留重要结果
 results/*.html
 results/*.md
 !results/.gitkeep
+!results/gsm8k_200_*.json  # 保留200条评测结果
 
 # 日志
 *.log

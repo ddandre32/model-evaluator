@@ -1,0 +1,60 @@
+{
+  "timestamp": "20260320_222247",
+  "strategy": "medium_scale (min(100, 10%))",
+  "results": {
+    "mimo_v2_pro": {
+      "reasoning": [
+        {
+          "benchmark": "GSM8K",
+          "score": 1.0,
+          "correct": 2,
+          "total": 2,
+          "latency_avg": 6.921507954597473
+        },
+        {
+          "benchmark": "MATH",
+          "score": 1.0,
+          "correct": 1,
+          "total": 1,
+          "latency_avg": 19.93343687057495
+        }
+      ],
+      "coding": [
+        {
+          "benchmark": "HumanEval",
+          "score": 0.0,
+          "correct": 0,
+          "total": 1,
+          "latency_avg": 2.647089958190918
+        }
+      ]
+    },
+    "qwen35_plus": {
+      "reasoning": [
+        {
+          "benchmark": "GSM8K",
+          "score": 1.0,
+          "correct": 2,
+          "total": 2,
+          "latency_avg": 3.578847050666809
+        },
+        {
+          "benchmark": "MATH",
+          "score": 1.0,
+          "correct": 1,
+          "total": 1,
+          "latency_avg": 132.84190273284912
+        }
+      ],
+      "coding": [
+        {
+          "benchmark": "HumanEval",
+          "score": 0.0,
+          "correct": 0,
+          "total": 1,
+          "latency_avg": 6.1173999309539795
+        }
+      ]
+    }
+  }
+}

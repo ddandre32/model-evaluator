@@ -1,0 +1,223 @@
+{
+  "timestamp": "20260320_181821",
+  "config": {
+    "evaluation": {
+      "name": "MiMo-V2-Pro-Capability-Evaluation",
+      "version": "1.0.0",
+      "description": "针对 Xiaomi MiMo-V2-Pro 各维度能力的客观评测"
+    },
+    "dimensions": {
+      "reasoning": {
+        "name": "复杂推理能力",
+        "description": "数学推理、逻辑推理、科学问题求解",
+        "weight": 0.25,
+        "benchmarks": [
+          "gsm8k",
+          "math",
+          "gpqa",
+          "mmlu_pro"
+        ]
+      },
+      "coding": {
+        "name": "编程能力",
+        "description": "代码生成、代码理解、Vibe Coding",
+        "weight": 0.25,
+        "benchmarks": [
+          "humaneval",
+          "mbpp",
+          "livecodebench",
+          "swe_bench"
+        ]
+      },
+      "agent": {
+        "name": "Agent 能力",
+        "description": "工具使用、多步骤规划、任务完成",
+        "weight": 0.3,
+        "benchmarks": [
+          "openclaw",
+          "webarena",
+          "tool_use",
+          "multi_step"
+        ]
+      },
+      "long_context": {
+        "name": "长上下文理解",
+        "description": "25M 上下文窗口的有效利用",
+        "weight": 0.1,
+        "benchmarks": [
+          "needle_in_haystack",
+          "long_qa",
+          "code_repo_understanding"
+        ]
+      },
+      "instruction_following": {
+        "name": "指令遵循",
+        "description": "准确理解并执行复杂指令",
+        "weight": 0.1,
+        "benchmarks": [
+          "ifeval",
+          "complex_prompts"
+        ]
+      }
+    },
+    "models": {
+      "mimo_v2_pro": {
+        "name": "Xiaomi MiMo-V2-Pro",
+        "api_base": "https://platform.xiaomimimo.com/v1",
+        "model_id": "mimo-v2-pro",
+        "max_tokens": 8192,
+        "temperature": 0.0,
+        "supports_tools": true,
+        "context_length": 25000000
+      },
+      "claude_3_5_sonnet": {
+        "name": "Claude 3.5 Sonnet",
+        "model_id": "claude-3-5-sonnet-20241022",
+        "max_tokens": 8192,
+        "temperature": 0.0,
+        "supports_tools": true
+      },
+      "gpt_4o": {
+        "name": "GPT-4o",
+        "model_id": "gpt-4o",
+        "max_tokens": 8192,
+        "temperature": 0.0,
+        "supports_tools": true
+      }
+    },
+    "settings": {
+      "parallel_requests": 5,
+      "retry_attempts": 3,
+      "timeout_seconds": 120,
+      "output_dir": "./results",
+      "save_intermediate": true
+    }
+  },
+  "detailed_results": {
+    "mimo_v2_pro": {
+      "reasoning": {
+        "dimension": "reasoning",
+        "weight": 0.25,
+        "raw_score": 0.0,
+        "weighted_score": 0.0,
+        "benchmark_results": [
+          {
+            "benchmark": "gsm8k",
+            "dimension": "reasoning",
+            "model": "mimo_v2_pro",
+            "score": 0.0,
+            "total_samples": 2,
+            "correct_samples": 0,
+            "details": [
+              {
+                "question": "Janet has 24 ducks. She buys 15 more ducks. How many ducks does she have now?",
+                "error": "API error: <html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n",
+                "correct": false
+              },
+              {
+                "question": "A bakery has 8 trays of cupcakes. Each tray has 12 cupcakes. How many cupcakes are there in total?",
+                "error": "API error: <html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n",
+                "correct": false
+              }
+            ],
+            "latency_avg": 0,
+            "timestamp": "2026-03-20T18:18:19.885018"
+          }
+        ]
+      }
+    },
+    "claude_3_5_sonnet": {
+      "reasoning": {
+        "dimension": "reasoning",
+        "weight": 0.25,
+        "raw_score": 0.0,
+        "weighted_score": 0.0,
+        "benchmark_results": [
+          {
+            "benchmark": "gsm8k",
+            "dimension": "reasoning",
+            "model": "claude_3_5_sonnet",
+            "score": 0.0,
+            "total_samples": 2,
+            "correct_samples": 0,
+            "details": [
+              {
+                "question": "Janet has 24 ducks. She buys 15 more ducks. How many ducks does she have now?",
+                "error": "API error: <html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n",
+                "correct": false
+              },
+              {
+                "question": "A bakery has 8 trays of cupcakes. Each tray has 12 cupcakes. How many cupcakes are there in total?",
+                "error": "API error: <html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n",
+                "correct": false
+              }
+            ],
+            "latency_avg": 0,
+            "timestamp": "2026-03-20T18:18:20.565303"
+          }
+        ]
+      }
+    },
+    "gpt_4o": {
+      "reasoning": {
+        "dimension": "reasoning",
+        "weight": 0.25,
+        "raw_score": 0.0,
+        "weighted_score": 0.0,
+        "benchmark_results": [
+          {
+            "benchmark": "gsm8k",
+            "dimension": "reasoning",
+            "model": "gpt_4o",
+            "score": 0.0,
+            "total_samples": 2,
+            "correct_samples": 0,
+            "details": [
+              {
+                "question": "Janet has 24 ducks. She buys 15 more ducks. How many ducks does she have now?",
+                "error": "API error: <html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n",
+                "correct": false
+              },
+              {
+                "question": "A bakery has 8 trays of cupcakes. Each tray has 12 cupcakes. How many cupcakes are there in total?",
+                "error": "API error: <html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n",
+                "correct": false
+              }
+            ],
+            "latency_avg": 0,
+            "timestamp": "2026-03-20T18:18:21.312127"
+          }
+        ]
+      }
+    }
+  },
+  "final_scores": {
+    "mimo_v2_pro": {
+      "overall_score": 0.0,
+      "dimension_breakdown": {
+        "reasoning": {
+          "raw_score": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    "claude_3_5_sonnet": {
+      "overall_score": 0.0,
+      "dimension_breakdown": {
+        "reasoning": {
+          "raw_score": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    },
+    "gpt_4o": {
+      "overall_score": 0.0,
+      "dimension_breakdown": {
+        "reasoning": {
+          "raw_score": 0.0,
+          "weighted_contribution": 0.0
+        }
+      }
+    }
+  }
+}

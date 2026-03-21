@@ -1,0 +1,21 @@
+{
+  "timestamp": "20260321_075939",
+  "benchmark": "GSM8K",
+  "samples": 82,
+  "results": {
+    "mimo_v2_pro": {
+      "model": "Xiaomi MiMo-V2-Pro",
+      "score": 0.7804878048780488,
+      "correct": 64,
+      "total": 82,
+      "latency_avg": 4.348617448806762
+    },
+    "qwen35_plus": {
+      "model": "阿里云 Qwen3.5-Plus",
+      "score": 0.9634146341463414,
+      "correct": 79,
+      "total": 82,
+      "latency_avg": 4.250433982872382
+    }
+  }
+}
