@@ -61,25 +61,58 @@ models:
     name: "Xiaomi MiMo-V2-Pro"
     api_base: "https://api.xiaomimimo.com/v1"
     model_id: "mimo-v2-pro"
-    max_tokens: 8192
-    temperature: 0.0
-    top_p: 0.95
+    # 核心参数 - 优化性能
+    max_tokens: 4096              # 平衡性能和成本，支持最大4096
+    temperature: 0.0            # 确定性输出，适合评测
+    top_p: 0.95                 # 保持一定多样性，但主要取高概率token
+    top_k: 50                   # 限制候选token数量
+    # 重复惩罚 - 防止模型重复
+    presence_penalty: 0.0       # 不惩罚新话题
+    frequency_penalty: 0.0      # 不惩罚重复词
+    # 上下文配置
+    context_length: 25000000    # 25M 长上下文
     supports_tools: true
-    context_length: 25000000
-    env_key: "MIMO_API_KEY"  # 环境变量名
-    # API密钥通过环境变量 MIMO_API_KEY 提供
+    # 评测特定配置
+    reasoning_params:
+      temperature: 0.0          # 推理需要确定性
+      max_tokens: 2048
+    coding_params:
+      temperature: 0.2          # 代码生成需要一点创造性
+      max_tokens: 4096
+    agent_params:
+      temperature: 0.0          # Agent需要精确
+      max_tokens: 2048
+    env_key: "MIMO_API_KEY"
 
-  # 对比模型
+  # 对比模型 - Qwen3.5-Plus (最强配置)
   qwen35_plus:
     name: "阿里云 Qwen3.5-Plus"
     api_base: "https://dashscope.aliyuncs.com/compatible-mode/v1"
-    model_id: "qwen-plus"  # 或 qwen3.5-plus，根据实际可用模型调整
-    max_tokens: 8192
-    temperature: 0.0
+    model_id: "qwen-max"        # 使用最强版本 qwen-max 替代 qwen-plus
+    # 核心参数 - 优化性能
+    max_tokens: 8192            # Qwen支持8K输出
+    temperature: 0.0            # 确定性输出
+    top_p: 0.95
+    top_k: 50
+    # 重复惩罚
+    presence_penalty: 0.0
+    frequency_penalty: 0.0
+    # 上下文配置 - 最强支持
+    context_length: 32000       # 32K 上下文
     supports_tools: true
-    context_length: 32000
-    env_key: "DASHSCOPE_API_KEY"  # 阿里云 DashScope 环境变量名
-    # API密钥通过环境变量 DASHSCOPE_API_KEY 提供
+    # 启用搜索增强（Qwen特有）
+    enable_search: false        # 评测时关闭，避免外部干扰
+    # 评测特定配置
+    reasoning_params:
+      temperature: 0.0
+      max_tokens: 4096
+    coding_params:
+      temperature: 0.2
+      max_tokens: 8192
+    agent_params:
+      temperature: 0.0
+      max_tokens: 4096
+    env_key: "DASHSCOPE_API_KEY"
 
 # 评测参数
 settings:

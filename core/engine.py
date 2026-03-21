@@ -79,12 +79,12 @@ class MiMoInterface(ModelInterface):
 
     def __init__(self, config: Dict[str, Any]):
         super().__init__(config)
+        self.config = config  # 保存配置
         self.api_base = config.get('api_base', 'https://api.xiaomimimo.com/v1')
         self.env_key_name = config.get('env_key', 'MIMO_API_KEY')
         self.api_key = config.get('api_key') or os.environ.get(self.env_key_name, '')
         self.supports_tools = config.get('supports_tools', True)
-        self.system_prompt = config.get('system_prompt',
-            "You are a helpful AI assistant.")
+        self.system_prompt = config.get('system_prompt', "You are a helpful AI assistant.")
 
     async def generate(self, prompt: str, **kwargs) -> Dict[str, Any]:
         """调用 OpenAI 兼容 API"""
@@ -118,22 +118,35 @@ class MiMoInterface(ModelInterface):
         # 根据 API 类型选择合适的参数名
         max_tokens_param = "max_tokens" if "xiaomimimo" in self.api_base else "max_completion_tokens"
 
+        # 从配置获取默认参数，支持配置文件中的评测特定参数
+        task_type = kwargs.get('task_type', 'default')
+        if task_type == 'reasoning' and hasattr(self, 'config'):
+            default_params = self.config.get('reasoning_params', {})
+        elif task_type == 'coding' and hasattr(self, 'config'):
+            default_params = self.config.get('coding_params', {})
+        elif task_type == 'agent' and hasattr(self, 'config'):
+            default_params = self.config.get('agent_params', {})
+        else:
+            default_params = {}
+
         request_params = {
             "model": self.model_id,
             "messages": messages,
-            max_tokens_param: kwargs.get('max_tokens', 1024),
-            "temperature": kwargs.get('temperature', 0.0),
-            "top_p": kwargs.get('top_p', 0.95),
+            max_tokens_param: kwargs.get('max_tokens', default_params.get('max_tokens', 1024)),
+            "temperature": kwargs.get('temperature', default_params.get('temperature', 0.0)),
+            "top_p": kwargs.get('top_p', default_params.get('top_p', 0.95)),
             "stream": False,
         }
 
-        # 可选参数
-        if 'stop' in kwargs:
-            request_params["stop"] = kwargs['stop']
-        if 'frequency_penalty' in kwargs:
-            request_params["frequency_penalty"] = kwargs['frequency_penalty']
-        if 'presence_penalty' in kwargs:
-            request_params["presence_penalty"] = kwargs['presence_penalty']
+        # 可选参数 - 优先使用传入的参数，否则使用配置
+        if 'top_k' in kwargs or 'top_k' in default_params:
+            request_params["top_k"] = kwargs.get('top_k', default_params.get('top_k'))
+        if 'stop' in kwargs or 'stop' in default_params:
+            request_params["stop"] = kwargs.get('stop', default_params.get('stop'))
+        if 'frequency_penalty' in kwargs or 'frequency_penalty' in default_params:
+            request_params["frequency_penalty"] = kwargs.get('frequency_penalty', default_params.get('frequency_penalty', 0.0))
+        if 'presence_penalty' in kwargs or 'presence_penalty' in default_params:
+            request_params["presence_penalty"] = kwargs.get('presence_penalty', default_params.get('presence_penalty', 0.0))
 
         # 记录开始时间
         start_time = time.time()
