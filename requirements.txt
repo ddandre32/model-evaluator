@@ -1,0 +1,33 @@
+# MiMo-V2-Pro 评测框架依赖
+
+# 核心依赖
+pyyaml>=6.0
+openai>=1.0.0              # MiMo API 调用 (OpenAI 兼容)
+aiohttp>=3.8.0
+aiofiles>=22.0.0
+
+# 评测依赖
+numpy>=1.24.0
+scipy>=1.10.0
+
+# 数据加载
+datasets>=2.14.0
+huggingface-hub>=0.16.0
+
+# 报告生成
+jinja2>=3.1.0
+markdown>=3.4.0
+
+# 代码评测
+pygments>=2.15.0
+ast-decompiler>=0.7.0
+
+# 长上下文评测
+# (无需额外依赖，使用标准库)
+
+# 开发依赖 (可选)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0

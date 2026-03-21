@@ -1,0 +1,72 @@
+[
+  {
+    "task_id": "HumanEval/0",
+    "prompt": "def has_close_elements(numbers: List[float], threshold: float) -> bool:\n    \"\"\" Check if in given list of numbers, are any two numbers closer to each other than given threshold.\"\"\"\n",
+    "canonical_solution": "    for i in range(len(numbers)):\n        for j in range(i + 1, len(numbers)):\n            if abs(numbers[i] - numbers[j]) < threshold:\n                return True\n    return False\n",
+    "test": "def check(has_close_elements):\n    assert has_close_elements([1.0, 2.0, 3.0], 0.5) == False\n    assert has_close_elements([1.0, 2.8, 3.0, 4.0, 5.0, 2.0], 0.3) == True\n\ncheck(has_close_elements)\n",
+    "entry_point": "has_close_elements"
+  },
+  {
+    "task_id": "HumanEval/1",
+    "prompt": "def separate_paren_groups(paren_string: str) -> List[str]:\n    \"\"\" Given a string of multiple groups of nested parentheses, separate those groups into separate strings and return the list.\"\"\"\n",
+    "canonical_solution": "    result = []\n    current = []\n    depth = 0\n    for c in paren_string:\n        if c == '(':\n            depth += 1\n            current.append(c)\n        elif c == ')':\n            depth -= 1\n            current.append(c)\n            if depth == 0:\n                result.append(''.join(current))\n                current = []\n    return result\n",
+    "test": "def check(separate_paren_groups):\n    assert separate_paren_groups('( ) (( )) (( )( ))') == ['()', '(())', '(()())']\ncheck(separate_paren_groups)\n",
+    "entry_point": "separate_paren_groups"
+  },
+  {
+    "task_id": "HumanEval/2",
+    "prompt": "def truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into integer and fractional parts. Return the fractional part.\"\"\"\n",
+    "canonical_solution": "    return number - int(number)\n",
+    "test": "def check(truncate_number):\n    assert truncate_number(3.5) == 0.5\n    assert truncate_number(10.75) == 0.75\ncheck(truncate_number)\n",
+    "entry_point": "truncate_number"
+  },
+  {
+    "task_id": "HumanEval/3",
+    "prompt": "def below_zero(operations: List[int]) -> bool:\n    \"\"\" Given a list of deposit and withdrawal operations on a bank account that starts with zero balance, detect if at any point the balance goes below zero.\"\"\"\n",
+    "canonical_solution": "    balance = 0\n    for op in operations:\n        balance += op\n        if balance < 0:\n            return True\n    return False\n",
+    "test": "def check(below_zero):\n    assert below_zero([1, 2, 3]) == False\n    assert below_zero([1, 2, -4, 5]) == True\ncheck(below_zero)\n",
+    "entry_point": "below_zero"
+  },
+  {
+    "task_id": "HumanEval/4",
+    "prompt": "def mean_absolute_deviation(numbers: List[float]) -> float:\n    \"\"\" For a given list of input numbers, calculate Mean Absolute Deviation around the mean.\"\"\"\n",
+    "canonical_solution": "    mean = sum(numbers) / len(numbers)\n    return sum(abs(x - mean) for x in numbers) / len(numbers)\n",
+    "test": "def check(mean_absolute_deviation):\n    assert abs(mean_absolute_deviation([1.0, 2.0, 3.0]) - 0.6666666666666666) < 1e-6\ncheck(mean_absolute_deviation)\n",
+    "entry_point": "mean_absolute_deviation"
+  },
+  {
+    "task_id": "HumanEval/5",
+    "prompt": "def intersperse(numbers: List[int], delimeter: int) -> List[int]:\n    \"\"\" Insert a number 'delimeter' between every two consecutive elements of input list `numbers`.\"\"\"\n",
+    "canonical_solution": "    if not numbers:\n        return []\n    result = [numbers[0]]\n    for num in numbers[1:]:\n        result.extend([delimeter, num])\n    return result\n",
+    "test": "def check(intersperse):\n    assert intersperse([], 4) == []\n    assert intersperse([1, 2, 3], 4) == [1, 4, 2, 4, 3]\ncheck(intersperse)\n",
+    "entry_point": "intersperse"
+  },
+  {
+    "task_id": "HumanEval/6",
+    "prompt": "def parse_nested_parens(paren_string: str) -> List[int]:\n    \"\"\" Given a string of nested parentheses, return a list of maximum nesting depths for each group.\"\"\"\n",
+    "canonical_solution": "    depths = []\n    current_depth = 0\n    max_depth = 0\n    for c in paren_string:\n        if c == '(':\n            current_depth += 1\n            max_depth = max(max_depth, current_depth)\n        elif c == ')':\n            current_depth -= 1\n        elif c == ' ':\n            if max_depth > 0:\n                depths.append(max_depth)\n            max_depth = 0\n    if max_depth > 0:\n        depths.append(max_depth)\n    return depths\n",
+    "test": "def check(parse_nested_parens):\n    assert parse_nested_parens('( ) (( )) (( )( ))') == [1, 2, 2]\ncheck(parse_nested_parens)\n",
+    "entry_point": "parse_nested_parens"
+  },
+  {
+    "task_id": "HumanEval/7",
+    "prompt": "def filter_by_substring(strings: List[str], substring: str) -> List[str]:\n    \"\"\" Filter an input list of strings only for ones that contain a given substring.\"\"\"\n",
+    "canonical_solution": "    return [s for s in strings if substring in s]\n",
+    "test": "def check(filter_by_substring):\n    assert filter_by_substring([], 'a') == []\n    assert filter_by_substring(['abc', 'bacd', 'cde', 'array'], 'a') == ['abc', 'bacd', 'array']\ncheck(filter_by_substring)\n",
+    "entry_point": "filter_by_substring"
+  },
+  {
+    "task_id": "HumanEval/8",
+    "prompt": "def sum_product(numbers: List[int]) -> Tuple[int, int]:\n    \"\"\" For a given list of integers, return a tuple of sum and product of all integers.\"\"\"\n",
+    "canonical_solution": "    sum_val = sum(numbers)\n    product = 1\n    for num in numbers:\n        product *= num\n    return (sum_val, product)\n",
+    "test": "def check(sum_product):\n    assert sum_product([]) == (0, 1)\n    assert sum_product([1, 2, 3, 4]) == (10, 24)\ncheck(sum_product)\n",
+    "entry_point": "sum_product"
+  },
+  {
+    "task_id": "HumanEval/9",
+    "prompt": "def rolling_max(numbers: List[int]) -> List[int]:\n    \"\"\" From a given list of integers, generate a list of rolling maximum element found until given moment.\"\"\"\n",
+    "canonical_solution": "    result = []\n    current_max = float('-inf')\n    for num in numbers:\n        current_max = max(current_max, num)\n        result.append(current_max)\n    return result\n",
+    "test": "def check(rolling_max):\n    assert rolling_max([1, 2, 3, 2, 3, 4, 2]) == [1, 2, 3, 3, 3, 4, 4]\ncheck(rolling_max)\n",
+    "entry_point": "rolling_max"
+  }
+]

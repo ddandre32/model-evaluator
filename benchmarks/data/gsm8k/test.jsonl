@@ -1,0 +1,82 @@
+{"question": "Janet has 24 ducks. She buys 15 more ducks. How many ducks does she have now?", "answer": "Janet starts with 24 ducks. She buys 15 more. 24 + 15 = 39. #### 39", "answer_number": 39}
+{"question": "A bakery has 8 trays of cupcakes. Each tray has 12 cupcakes. How many cupcakes are there in total?", "answer": "8 trays * 12 cupcakes per tray = 96 cupcakes. #### 96", "answer_number": 96}
+{"question": "Tom has $45. He spends $18 on a book and $12 on a pen. How much money does he have left?", "answer": "Tom starts with $45. He spends $18 + $12 = $30. $45 - $30 = $15. #### 15", "answer_number": 15}
+{"question": "A train travels 120 miles in 2 hours. How many miles does it travel per hour?", "answer": "120 miles / 2 hours = 60 miles per hour. #### 60", "answer_number": 60}
+{"question": "Sarah bought 5 packs of stickers. Each pack has 24 stickers. How many stickers does she have?", "answer": "5 packs * 24 stickers per pack = 120 stickers. #### 120", "answer_number": 120}
+{"question": "There are 36 students in a class. If they are divided into groups of 6, how many groups are there?", "answer": "36 students / 6 students per group = 6 groups. #### 6", "answer_number": 6}
+{"question": "Mike read 45 pages on Monday and 38 pages on Tuesday. How many pages did he read in total?", "answer": "45 + 38 = 83 pages. #### 83", "answer_number": 83}
+{"question": "A rectangle has a length of 12 meters and a width of 8 meters. What is its perimeter?", "answer": "Perimeter = 2 * (length + width) = 2 * (12 + 8) = 2 * 20 = 40 meters. #### 40", "answer_number": 40}
+{"question": "Emma has 3 boxes of chocolates. Each box contains 16 chocolates. How many chocolates does she have?", "answer": "3 boxes * 16 chocolates per box = 48 chocolates. #### 48", "answer_number": 48}
+{"question": "A car uses 5 liters of gas per 100 kilometers. How many liters does it use for 300 kilometers?", "answer": "300 km / 100 km = 3, 3 * 5 liters = 15 liters. #### 15", "answer_number": 15}
+{"question": "There are 48 apples in a basket. If 15 are rotten, how many good apples are there?", "answer": "48 - 15 = 33 good apples. #### 33", "answer_number": 33}
+{"question": "A movie theater has 12 rows with 25 seats each. How many seats are there?", "answer": "12 rows * 25 seats per row = 300 seats. #### 300", "answer_number": 300}
+{"question": "David earns $25 per hour. He works 8 hours a day for 5 days. How much does he earn?", "answer": "$25 * 8 hours * 5 days = $1000. #### 1000", "answer_number": 1000}
+{"question": "A pizza is cut into 8 slices. If 5 friends each eat 2 slices, how many slices are left?", "answer": "5 friends * 2 slices = 10 slices eaten. 8 - 10 = -2, so not enough pizza. If they share: 8 - 10 = need 2 more. But if only 8 exist: 0 left. #### 0", "answer_number": 0}
+{"question": "Lily has $80. She spends 1/4 on food and 1/5 on transportation. How much does she have left?", "answer": "Food: $80 * 1/4 = $20. Transportation: $80 * 1/5 = $16. Total spent: $36. Left: $80 - $36 = $44. #### 44", "answer_number": 44}
+{"question": "A school has 6 grades with 4 classes each. Each class has 28 students. How many students?", "answer": "6 grades * 4 classes * 28 students = 672 students. #### 672", "answer_number": 672}
+{"question": "Tom runs 5 kilometers every day. How many kilometers does he run in 4 weeks?", "answer": "4 weeks * 7 days * 5 km = 140 km. #### 140", "answer_number": 140}
+{"question": "A bottle holds 750 milliliters. How many liters is that?", "answer": "750 ml / 1000 = 0.75 liters. #### 0.75", "answer_number": 0.75}
+{"question": "Sarah bought a dress for $45 and shoes for $32. She paid with a $100 bill. How much change?", "answer": "$45 + $32 = $77. $100 - $77 = $23 change. #### 23", "answer_number": 23}
+{"question": "A farmer has 156 chickens and 89 ducks. How many birds does he have?", "answer": "156 + 89 = 245 birds. #### 245", "answer_number": 245}
+{"question": "A bicycle costs $240. It is on sale for 25% off. What is the sale price?", "answer": "25% of $240 = $60 discount. $240 - $60 = $180. #### 180", "answer_number": 180}
+{"question": "There are 18 boys and 22 girls in a class. What percentage are girls?", "answer": "Total: 18 + 22 = 40. Girls percentage: 22/40 * 100 = 55%. #### 55", "answer_number": 55}
+{"question": "A train leaves at 2:30 PM and arrives at 5:15 PM. How long is the journey?", "answer": "From 2:30 to 5:30 is 3 hours, minus 15 minutes = 2 hours 45 minutes = 2.75 hours. #### 2.75", "answer_number": 2.75}
+{"question": "Mike has 48 marbles. He gives 1/3 to his brother and 1/4 to his sister. How many does he keep?", "answer": "Brother: 48 * 1/3 = 16. Sister: 48 * 1/4 = 12. Given: 28. Kept: 48 - 28 = 20. #### 20", "answer_number": 20}
+{"question": "A rectangular garden is 15 meters long and 10 meters wide. What is its area?", "answer": "Area = length * width = 15 * 10 = 150 square meters. #### 150", "answer_number": 150}
+{"question": "Emma saves $15 per week. How many weeks to save $180?", "answer": "$180 / $15 per week = 12 weeks. #### 12", "answer_number": 12}
+{"question": "A recipe needs 3 cups of flour for 12 cookies. How much flour for 36 cookies?", "answer": "36/12 = 3 times more. 3 * 3 cups = 9 cups. #### 9", "answer_number": 9}
+{"question": "There are 120 students. 3/5 are girls. How many boys are there?", "answer": "Girls: 120 * 3/5 = 72. Boys: 120 - 72 = 48. #### 48", "answer_number": 48}
+{"question": "A car travels 360 miles using 12 gallons of gas. What is the mileage?", "answer": "360 miles / 12 gallons = 30 miles per gallon. #### 30", "answer_number": 30}
+{"question": "Tom bought 4 books at $12 each and 3 pens at $2 each. What is the total cost?", "answer": "Books: 4 * $12 = $48. Pens: 3 * $2 = $6. Total: $54. #### 54", "answer_number": 54}
+{"question": "A square has a perimeter of 36 centimeters. What is the length of one side?", "answer": "Perimeter = 4 * side. Side = 36 / 4 = 9 cm. #### 9", "answer_number": 9}
+{"question": "Lisa has read 2/5 of a 250-page book. How many pages has she read?", "answer": "250 * 2/5 = 100 pages. #### 100", "answer_number": 100}
+{"question": "A store sells 48 boxes of cereal per day. How many boxes in 2 weeks?", "answer": "48 * 14 days = 672 boxes. #### 672", "answer_number": 672}
+{"question": "Water flows at 15 liters per minute. How many liters in 2.5 hours?", "answer": "2.5 hours = 150 minutes. 15 * 150 = 2250 liters. #### 2250", "answer_number": 2250}
+{"question": "A triangle has angles of 45° and 60°. What is the third angle?", "answer": "Sum of angles = 180°. Third angle = 180 - 45 - 60 = 75°. #### 75", "answer_number": 75}
+{"question": "Jack has $120. He spends 30% on games and 25% on books. How much is left?", "answer": "Games: $120 * 0.30 = $36. Books: $120 * 0.25 = $30. Left: $120 - $66 = $54. #### 54", "answer_number": 54}
+{"question": "A factory produces 450 toys per hour. How many in an 8-hour day?", "answer": "450 * 8 = 3600 toys. #### 3600", "answer_number": 3600}
+{"question": "Sarah walked 3.5 kilometers in the morning and 2.8 in the evening. How far?", "answer": "3.5 + 2.8 = 6.3 kilometers. #### 6.3", "answer_number": 6.3}
+{"question": "There are 24 red balls and 36 blue balls. What is the ratio of red to blue?", "answer": "24:36 = 2:3 (divide both by 12). #### 2", "answer_number": 2}
+{"question": "A TV costs $800 plus 8% tax. What is the total?", "answer": "Tax: $800 * 0.08 = $64. Total: $864. #### 864", "answer_number": 864}
+{"question": "Tom eats 2/3 of a pizza and his friend eats 1/4. How much is left?", "answer": "Total eaten: 2/3 + 1/4 = 8/12 + 3/12 = 11/12. Left: 1/12. #### 0.083", "answer_number": 0.083}
+{"question": "A bus has 45 seats. 28 are occupied. What percentage is empty?", "answer": "Empty: 45 - 28 = 17. Percentage: 17/45 * 100 = 37.78%. #### 37.78", "answer_number": 37.78}
+{"question": "Mary is 12 years old. Her mother is 3 times as old. How old is her mother?", "answer": "12 * 3 = 36 years old. #### 36", "answer_number": 36}
+{"question": "A pool holds 2400 gallons. It fills at 80 gallons per hour. How long to fill?", "answer": "2400 / 80 = 30 hours. #### 30", "answer_number": 30}
+{"question": "There are 56 apples to pack in boxes of 8. How many boxes?", "answer": "56 / 8 = 7 boxes. #### 7", "answer_number": 7}
+{"question": "A dress costs $60. The price increases by 15%. What is the new price?", "answer": "$60 * 0.15 = $9 increase. New price: $69. #### 69", "answer_number": 69}
+{"question": "John runs 8 laps in 24 minutes. What is his time per lap?", "answer": "24 / 8 = 3 minutes per lap. #### 3", "answer_number": 3}
+{"question": "A class has 32 students. 18 are boys. What fraction are girls?", "answer": "Girls: 32 - 18 = 14. Fraction: 14/32 = 7/16. #### 0.4375", "answer_number": 0.4375}
+{"question": "Emma earns $18 per hour for overtime. She works 6 overtime hours. How much?", "answer": "$18 * 6 = $108. #### 108", "answer_number": 108}
+{"question": "A rope is 18 meters long. It is cut into 6 equal pieces. How long is each?", "answer": "18 / 6 = 3 meters each. #### 3", "answer_number": 3}
+{"question": "There are 5 shelves with 24 books each. How many books total?", "answer": "5 * 24 = 120 books. #### 120", "answer_number": 120}
+{"question": "A car travels 240 km in 3 hours. What is its speed?", "answer": "240 / 3 = 80 km per hour. #### 80", "answer_number": 80}
+{"question": "Lisa saves $25 per month. How much in 1.5 years?", "answer": "1.5 years = 18 months. $25 * 18 = $450. #### 450", "answer_number": 450}
+{"question": "A pizza costs $14.50. If you buy 4, what is the total?", "answer": "$14.50 * 4 = $58. #### 58", "answer_number": 58}
+{"question": "There are 144 students going on a trip. Each bus holds 36. How many buses?", "answer": "144 / 36 = 4 buses. #### 4", "answer_number": 4}
+{"question": "Tom weighs 68 kg. He loses 8% of his weight. What is his new weight?", "answer": "68 * 0.08 = 5.44 kg lost. New: 68 - 5.44 = 62.56 kg. #### 62.56", "answer_number": 62.56}
+{"question": "A recipe serves 6 people. How much for 18 people?", "answer": "18 / 6 = 3 times the recipe. #### 3", "answer_number": 3}
+{"question": "A garden is 20m by 15m. A path 2m wide goes around it. What is the outer perimeter?", "answer": "Outer: 24m by 19m. Perimeter: 2*(24+19) = 86m. #### 86", "answer_number": 86}
+{"question": "Sarah has read 150 pages of a 400-page book. What percentage remains?", "answer": "Remaining: 250. Percentage: 250/400 * 100 = 62.5%. #### 62.5", "answer_number": 62.5}
+{"question": "A shop sells 156 items on Monday and 189 on Tuesday. What is the average?", "answer": "(156 + 189) / 2 = 345 / 2 = 172.5. #### 172.5", "answer_number": 172.5}
+{"question": "Water costs $0.15 per liter. How much for 25 liters?", "answer": "$0.15 * 25 = $3.75. #### 3.75", "answer_number": 3.75}
+{"question": "A train travels at 90 km/h for 2.5 hours. How far?", "answer": "90 * 2.5 = 225 km. #### 225", "answer_number": 225}
+{"question": "There are 48 cookies shared among 6 children. How many each?", "answer": "48 / 6 = 8 cookies each. #### 8", "answer_number": 8}
+{"question": "A jacket costs $85. It is reduced by 20%. What is the sale price?", "answer": "$85 * 0.20 = $17 off. Sale: $68. #### 68", "answer_number": 68}
+{"question": "Mike cycles 15 km in 45 minutes. What is his speed in km/h?", "answer": "45 min = 0.75 hours. 15 / 0.75 = 20 km/h. #### 20", "answer_number": 20}
+{"question": "A tank is 3/4 full. It holds 2000 liters. How much is in it?", "answer": "2000 * 3/4 = 1500 liters. #### 1500", "answer_number": 1500}
+{"question": "There are 72 students in 3 classes. What is the average class size?", "answer": "72 / 3 = 24 students. #### 24", "answer_number": 24}
+{"question": "Emma buys 3.5 kg of apples at $4 per kg. How much?", "answer": "3.5 * $4 = $14. #### 14", "answer_number": 14}
+{"question": "A number divided by 7 equals 12. What is the number?", "answer": "x / 7 = 12, so x = 12 * 7 = 84. #### 84", "answer_number": 84}
+{"question": "Tom has $500 in his account. He withdraws 1/5. How much is left?", "answer": "$500 * 1/5 = $100. Left: $400. #### 400", "answer_number": 400}
+{"question": "A rectangle has area 96 and length 12. What is the width?", "answer": "96 / 12 = 8. #### 8", "answer_number": 8}
+{"question": "There are 240 students. 40% are in sports. How many?", "answer": "240 * 0.40 = 96 students. #### 96", "answer_number": 96}
+{"question": "A plane flies 540 miles in 3 hours. How far in 5 hours at same speed?", "answer": "Speed: 540/3 = 180 mph. In 5 hours: 180 * 5 = 900 miles. #### 900", "answer_number": 900}
+{"question": "Sarah spends 1/3 of her money on food and has $40 left. How much did she have?", "answer": "2/3 = $40, so 1/3 = $20. Total: $60. #### 60", "answer_number": 60}
+{"question": "A car uses 8.5 liters per 100 km. How much for 400 km?", "answer": "4 * 8.5 = 34 liters. #### 34", "answer_number": 34}
+{"question": "The sum of three consecutive numbers is 48. What is the middle number?", "answer": "x + (x+1) + (x+2) = 48, 3x + 3 = 48, 3x = 45, x = 15. Middle: 16. #### 16", "answer_number": 16}
+{"question": "A shop has a 15% off sale. An item costs $68 after discount. What was original?", "answer": "Original * 0.85 = $68. Original = $68 / 0.85 = $80. #### 80", "answer_number": 80}
+{"question": "Tom is 8 years older than his sister. In 5 years he will be twice as old. How old is Tom now?", "answer": "Let sister be x. Tom is x+8. In 5 years: x+13 = 2(x+5) = 2x+10. x = 3. Tom is 11. #### 11", "answer_number": 11}
+{"question": "A mixture needs 2 parts water to 3 parts juice. How much water for 1.5 liters of juice?", "answer": "2/3 = x/1.5, x = 2/3 * 1.5 = 1 liter. #### 1", "answer_number": 1}
+{"question": "The average of 5 numbers is 24. Four are 18, 22, 28, 30. What is the fifth?", "answer": "Sum = 5 * 24 = 120. Known sum = 98. Fifth = 120 - 98 = 22. #### 22", "answer_number": 22}
+{"question": "A square and rectangle have same perimeter. Square side is 6, rectangle length is 8. What is width?", "answer": "Square perimeter = 24. Rectangle: 2(8 + w) = 24, 8 + w = 12, w = 4. #### 4", "answer_number": 4}
+{"question": "A boat goes 18 km downstream in 2 hours and upstream in 3 hours. What is stream speed?", "answer": "Downstream: 9 km/h, upstream: 6 km/h. Boat = 7.5, stream = 1.5 km/h. #### 1.5", "answer_number": 1.5}
