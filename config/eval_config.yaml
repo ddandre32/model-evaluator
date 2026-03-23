@@ -30,13 +30,14 @@ dimensions:
 
   agent:
     name: "Agent 能力"
-    description: "工具使用、多步骤规划、任务完成"
+    description: "工具使用、多步骤规划、任务完成、智能家居语义解析"
     weight: 0.30
     benchmarks:
       - openclaw       # 文章中提到的评测框架
       - webarena       # 网页操作任务
       - tool_use       # 工具调用准确性
       - multi_step     # 多步骤任务完成率
+      - smarthome      # 智能家居语义解析
 
   long_context:
     name: "长上下文理解"
