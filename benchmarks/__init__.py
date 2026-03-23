@@ -15,7 +15,7 @@ from benchmarks.agent import (
     WebArenaBenchmark,
     OpenClawBenchmark
 )
-from benchmarks.smarthome import SmartHomeBenchmark
+from benchmarks.smarthome_devicecontrol import SmartHomeDeviceControlBenchmark
 
 __all__ = [
     # 推理评测
@@ -33,6 +33,6 @@ __all__ = [
     'MultiStepBenchmark',
     'WebArenaBenchmark',
     'OpenClawBenchmark',
-    # 智能家居评测
-    'SmartHomeBenchmark',
+    # 智能家居设备控制评测
+    'SmartHomeDeviceControlBenchmark',
 ]

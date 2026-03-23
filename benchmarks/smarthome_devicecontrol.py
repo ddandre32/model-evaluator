@@ -9,9 +9,9 @@ from typing import List, Dict, Any
 from core.engine import BaseBenchmark, EvalResult, ModelInterface
 
 
-class SmartHomeBenchmark(BaseBenchmark):
+class SmartHomeDeviceControlBenchmark(BaseBenchmark):
     """
-    智能家居语义解析评测
+    智能家居设备控制语义解析评测
 
     评测模型将自然语言指令解析为结构化协议的能力：
     格式: 设备类型;意图;槽位名=槽位值
@@ -21,12 +21,12 @@ class SmartHomeBenchmark(BaseBenchmark):
     输出: "窗帘;调低透光度;room=主卧"
     """
 
-    name = "smarthome"
+    name = "smarthome_devicecontrol"
     dimension = "agent"  # 属于Agent能力，需要理解上下文和解析意图
 
     def load_dataset(self) -> List[Dict[str, Any]]:
-        """加载智能家居数据集"""
-        dataset_path = self.data_dir / "smarthome" / "test.jsonl"
+        """加载智能家居设备控制数据集"""
+        dataset_path = self.data_dir / "smarthome_devicecontrol" / "test.jsonl"
 
         if not dataset_path.exists():
             return self._get_sample_data()

@@ -28,8 +28,8 @@ from benchmarks import (
     MultiStepBenchmark,
     WebArenaBenchmark,
     OpenClawBenchmark,
-    # 智能家居评测
-    SmartHomeBenchmark,
+    # 智能家居设备控制评测
+    SmartHomeDeviceControlBenchmark,
 )
 from benchmarks.long_context import (
     NeedleInHaystackBenchmark,
@@ -60,7 +60,7 @@ BENCHMARK_REGISTRY = {
     'multi_step': MultiStepBenchmark,
     'webarena': WebArenaBenchmark,
     'openclaw': OpenClawBenchmark,
-    'smarthome': SmartHomeBenchmark,
+    'smarthome_devicecontrol': SmartHomeDeviceControlBenchmark,
     # 长上下文
     'needle_in_haystack': NeedleInHaystackBenchmark,
     'long_qa': LongQABenchmark,
