@@ -1,0 +1,19 @@
+{
+  "timestamp": "20260323_153402",
+  "benchmark": "smarthome_devicecontrol",
+  "samples": 50,
+  "results": [
+    {
+      "model": "MiMo-V2-Pro",
+      "score": 0.08,
+      "correct": 4,
+      "total": 50
+    },
+    {
+      "model": "Qwen3.5-Plus",
+      "score": 0.06,
+      "correct": 3,
+      "total": 50
+    }
+  ]
+}
